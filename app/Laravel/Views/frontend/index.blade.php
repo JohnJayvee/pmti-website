@@ -5,12 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{--
-    <meta name="viewport" content="width=1050, initial-scale=1.0" /> --}}
-    {{--
-    <meta name="viewport" content="width=800" /> --}}
-    {{--
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> --}}
+    {{-- <meta name="viewport" content="width=1050, initial-scale=1.0" /> --}}
+    {{-- <meta name="viewport" content="width=800" /> --}}
+    {{-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> --}}
 
     <title>Home</title>
     <link rel="stylesheet" href="{{ asset('css/Home.css') }}" type="text/css">
@@ -196,6 +193,56 @@
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 section3-bg1"></div>
                 </div>
+
+                <section id="testimonial">
+                    <div class="container">
+                        <div class="row mt-5">
+                            <div class="col text-center">
+                                <span class="section2-span">WHAT THEY SAY</span>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col text-center">
+                                <span class="section2-expertise">Testimonial</span>
+                            </div>
+                        </div>
+                        <div class="row testimonial-row">
+                            <div class="col-2">
+                                <img src="{{ asset('imgs/left-quote.png') }}" class="left-quote" />
+                            </div>
+                            <div class="col-8  text-center">
+                                <p class="testimonal-description">It was in 2012 that DTI transitioned from an on
+                                    premise ICT platform to a Cloud infrastructure platform. The early decision has
+                                    greatly help the Department address the continuous and growing demand for
+                                    business process automation and systems efficiency to <br>address the rapid response
+                                    demanded by the citizenry for government services. <br><br> When the pandemic hit,
+                                    DTI
+                                    was in a way ready to address the need of a nonphysical or face-to-face
+                                    interaction; using ICT in delivering a much more responsive and flexible public
+                                    service.<br><br> Key to this readiness was AWS, the Cloud Service provider that
+                                    helped
+                                    us transitioned to the platform we needed to have and continuously provides
+                                    varied product and service innovations to move us forward. AWS gave us cloud
+                                    platform that can easily proto-type, develop and test any system that needs a
+                                    quick launch without going thru the complicity of hardware and software system
+                                    procurement.</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="{{ asset('imgs/right-quote.png') }}" class="right-quote" />
+                            </div>
+                        </div>
+                        <div class="row director-row">
+                            <div class="col text-center">
+                                <span class="director-name">Laudemer Solidum</span>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col text-center">
+                                <span class="director-position">Director DTI-ISMS</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <section class="section-content">
                     <div class="footer-bg">
