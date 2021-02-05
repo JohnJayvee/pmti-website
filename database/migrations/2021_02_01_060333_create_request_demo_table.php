@@ -15,13 +15,13 @@ class CreateRequestDemoTable extends Migration
     {
         Schema::create('request_demo', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->String('name');
-            $table->String('company');
-            $table->String('email');
-            $table->String('phone');
-            $table->String('message');
-            $table->timestamps('deleted_at');
+            $table->string('name');
+            $table->string('company');
+            $table->string('email');
+            $table->string('phone');
+            $table->string('message');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
