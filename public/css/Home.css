@@ -126,6 +126,7 @@ body {
     min-width: fit-content;
 }
 
+
 .learn-more-btn {
     text-align: -webkit-center;
     margin: inherit;
@@ -139,6 +140,63 @@ body {
     font-size: 18px;
     width: 11rem;
     height: 3rem;
+}
+
+#testimonial {
+    height: auto;
+}
+
+/* .left-quote {
+    float: right;
+} */
+
+.left-quote {
+    right: 0;
+    top: 0;
+    /* left: 0; */
+    position: absolute;
+}
+
+.right-quote {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.testimonial-row{
+    margin-top: 5rem
+}
+
+.testimonal-description {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    letter-spacing: 0px;
+    color: #333333
+}
+
+.director-row{
+    margin-top: 5rem;
+}
+
+.director-name{
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    letter-spacing: 0px;
+    color:#333333;
+}
+
+.director-position{
+    font-size: 20px;
+    font-weight: medium;
+    font-style: normal;
+    font-variant: normal;
+    letter-spacing: 0px;
+    color:#333333; 
 }
 
 .section2-expertise {
@@ -272,9 +330,9 @@ body {
     flex-wrap: wrap;
 } */
 
-.section-content {
+/* .section-content {
     width: 100vw;
-}
+} */
 
 .req-demo {
     font-weight: normal;
@@ -407,6 +465,14 @@ body {
         width: 9rem;
         height: 4rem;
 
+    }
+
+    .left-quote{
+        width: 3rem;
+    }
+
+    .right-quote{
+        width: 3rem;
     }
 
 
