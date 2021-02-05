@@ -1,0 +1,481 @@
+body {
+    min-width: fit-content;
+    animation: transitionIn 1s;
+    -moz-animation: transitionIn 1s;
+    -webkit-animation: transitionIn 1s;
+    -o-animation: transitionIn 1s;
+    /* animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    */
+} 
+
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+    border-bottom: 1px solid #6398E9;
+
+}
+
+
+.header a {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.header img {
+    border: 0;
+    float: left;
+    width: 7.5rem;
+    height: 5rem;
+}
+
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+.header-right {
+    float: right;
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+.product-banner-container {
+    height: 550px;
+}
+
+
+.requestbtn {
+    text-align: center !important;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1.3em;
+    color: #3E4098 !important;
+    padding: 7px;
+    width: 10.2em;
+    background-color: #FFFFFF !important;
+}
+
+
+.hrefbtn {
+    float: none !important;
+    text-align: center !important;
+    font-weight: 700;
+    font-size: 1.3em;
+    color: #3E4098 !important;
+}
+
+.product-banner {
+    width: 100%;
+    height: 100%;
+    background-image: url('../imgs/product-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerText {
+    text-align: center;
+    color: #ddd;
+    padding-top: 2rem;
+}
+
+.headerTag {
+    text-align: -webkit-center;
+    /* margin: inherit; */
+    font-size: 70px;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.feature-section {
+    margin-top: 10rem;
+}
+
+.digipep-img {
+    width: 22rem;
+}
+
+.digipep-img-row {
+    margin-top: 7rem;
+}
+
+.digipep-desc {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.feature-row {
+    margin-top: 8rem;
+}
+
+.feature-text {
+    text-align: left;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.api-img {
+    width: 4rem;
+    margin-right: 10px;
+}
+
+.feature-desc {
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #333333;
+    ;
+}
+
+.digram-row,
+.eResibo-section {
+    margin-top: 10rem;
+}
+
+.diagram-desc {
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #333333;
+    ;
+}
+
+.eResibo-section {
+    height: 557px;
+    width: 100%;
+    background-image: url('../imgs/product-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eResibo-title {
+    font-size: 70px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    ;
+}
+
+.eResibo-container {
+    margin-top: 5rem;
+}
+
+.eResibo-desc {
+    margin-top: 10rem;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    ;
+}
+
+.cloudSolution-section {
+    margin-top: 15rem;
+}
+
+.cloudSolution-title {
+    font-size: 70px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #333333;
+    ;
+}
+
+.cloudSolution-products {
+    margin-top: 8rem;
+}
+
+.subTitle {
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: medium;
+    letter-spacing: 0px;
+    color: #333333;
+    ;
+}
+
+.desc {
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #333333;
+    ;
+}
+
+.diagram-img {
+    width: 60rem;
+}
+
+.desc-container {
+    margin-top: 5rem;
+}
+
+.cloudSolution-img-eotcphp {
+    width: 27rem;
+}
+
+.cloudSolution-img-ebriu {
+    width: 18rem;
+    margin-top: 1rem;
+}
+
+.cloudSolution-img-etrio {
+    width: 17rem;
+    margin-top: 1rem;
+}
+
+.cloudSolution-img-epaytax {
+    width: 20rem;
+    margin-top: 1rem;
+}
+
+.cloudSolution-img-ziadala {
+
+    width: 21rem;
+}
+
+.cloudSolution-img-ziamarket {
+    width: 18rem;
+    margin-top: 1rem;
+}
+
+.cloudSolution-img-ziabiller {
+    width: 18rem;
+    margin-top: 1rem;
+}
+
+.cloudSolution-img-ziacare {
+    width: 18rem;
+    margin-top: 1rem;
+}
+
+.aws-img {
+    width: 6rem;
+    margin-right: 10px;
+}
+
+.aws-desc {
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #26303F;
+}
+
+.cloudSolution-img-azure {
+    width: 25rem;
+}
+
+.IaaS-Desc {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: 0px;
+    color: #333333
+}
+
+.PaaS-title {
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #333333;
+    ;
+}
+
+.footer-section {
+    margin-top: 15rem;
+    width: 100%;
+    height: 165px;
+    background-image: url('../imgs/product-footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-logo {
+    margin-top: 1rem;
+    width: 8rem;
+}
+
+.footer-span {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+
+
+@media (max-width: 425px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+@-moz-keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+
+@-webkit-keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+
+@-o-keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+
+/* @keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+} */
