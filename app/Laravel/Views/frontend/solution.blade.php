@@ -109,10 +109,10 @@
 
         <div class="container">
             <div class="row feature-row">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12">
                     <span class="feature-text">Features</span>
                 </div>
-                <div class="col-8">
+                <div class="col-lg-8 col-sm-12">
                     <div class="row mt-4">
                         <div class="col-2">
                             <img src="{{ asset('imgs/api.svg') }}" class="api-img" />
@@ -213,7 +213,7 @@
             </div>
 
             <div class="row cloudSolution-products">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12">
                     <div class="row">
                         <div class="col">
                             <span class="PaaS-title">PaaS</span>
@@ -234,7 +234,7 @@
                     </div>
                 </div>
 
-                <div class="col-8">
+                <div class="col-lg-8 col-sm-12">
                     <div class="row mt-4">
                         <div class="col-12 text-center">
                             <img src="{{ asset('imgs/eotcphp-logo.svg') }}" class="cloudSolution-img-eotcphp" />
@@ -253,7 +253,7 @@
             </div>
 
             <div class="row cloudSolution-products">
-                <div class="col-4">
+                <div class="col-lg-4">
                     <div class="row">
                         <div class="col">
                             <span class="PaaS-title">SaaS</span>
@@ -273,7 +273,7 @@
                     </div>
                 </div>
 
-                <div class="col-8">
+                <div class="col-lg-8 col-sm-12">
                     <div class="row mt-4">
                         <div class="col-12 text-center">
                             <img src="{{ asset('imgs/ziadala-logo.png') }}" class="cloudSolution-img-ziadala" />
@@ -292,7 +292,7 @@
             </div>
 
             <div class="row cloudSolution-products">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12">
                     <div class="row">
                         <div class="col">
                             <span class="PaaS-title">IaaS</span>
@@ -318,7 +318,7 @@
                     </div>
                 </div>
 
-                <div class="col-8">
+                <div class="col-lg-8 col-sm-12">
                     <div class="row mt-4">
                         <div class="col-12 text-center">
                             <img src="{{ asset('imgs/aws.png') }}" class="aws-img" />

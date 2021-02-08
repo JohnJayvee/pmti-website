@@ -88,7 +88,7 @@
             </div>
         </div>
         <div class="row">
-            <table class="table table-bordered table-striped">
+            <table class="table table-bordered table-striped table-responsive-sm">
                 <thead>
                     <tr>
                         <th scope="col">Name</th>
@@ -123,7 +123,7 @@
             </div>
         </div>
         <div class="row no-gutter">
-            <div class="col-12 text-center mt-3">
+            <div class="col-12 text-center mt-3 mb-3">
                 <span class="footer-span">Copyright © 2021 All Rights Reserved by Pilipinas Micro-Matrix Technology,
                     Inc. (PMTI)</span>
             </div>
